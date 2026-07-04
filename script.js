@@ -27,7 +27,7 @@ const bodyElement = document.body;
 
 if (localStorage.getItem('siteTheme') === "dark") {
     bodyElement.classList.add('dark-mode');
-    if (themeBtn.textContent = "☀️");
+    themeBtn.textContent = "☀️";
 }
 
 function toggleTheme() {
